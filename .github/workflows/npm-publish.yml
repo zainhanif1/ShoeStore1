@@ -40,4 +40,4 @@ jobs:
       run:  yarn global add surge
       
     - name: deploying surge app
-      run:  yarn surge ./build http://shoe-store-zainhanif2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  surge ./build http://shoe-store-zainhanif2020.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
